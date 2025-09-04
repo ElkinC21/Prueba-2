@@ -54,7 +54,7 @@ public class Main {
                     lea.nextLine(); 
                     try {
                         archivo.Completartarea(numtarea);
-                        System.out.println("Tarea completada");
+                        
                     } catch (IOException e) {
                         System.out.println("Error al completar la tarea " + e.getMessage());
                     }

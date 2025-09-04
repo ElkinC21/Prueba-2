@@ -91,7 +91,7 @@ public void Completartarea(int numtarea) throws IOException {
         System.out.println("No se encontro la tarea numero " + numtarea);
         return; 
     }
-
+    System.out.println("Tarea Completada");
     
     FileWriter fw = new FileWriter(archivo);
     fw.write(todo);
